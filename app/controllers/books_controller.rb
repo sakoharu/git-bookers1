@@ -4,11 +4,9 @@ class BooksController < ApplicationController
   end
 
   def creat
-
     book = Book.new(book_params)
     book.save
-    redirect_to '/show'
-
+    redirect_to '/top'
   end
 
   def index

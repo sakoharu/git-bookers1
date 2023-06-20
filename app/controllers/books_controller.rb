@@ -2,7 +2,7 @@ class BooksController < ApplicationController
 
 
 
-  def new
+  def top
   end
 
   def create
